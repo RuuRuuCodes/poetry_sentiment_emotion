@@ -72,20 +72,6 @@ def data_preprocessing(text):
 
 
 import streamlit as st
-import pandas as pd
-from tkinter import Text, Label, Button, messagebox
-from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.multioutput import MultiOutputClassifier
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import (
-    accuracy_score,
-    confusion_matrix,
-    ConfusionMatrixDisplay,
-    f1_score,
-    recall_score,
-    precision_score,
-)
 
 
 # Function to analyze sentiment and emotions
